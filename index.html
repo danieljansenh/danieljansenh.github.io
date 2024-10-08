@@ -13,45 +13,50 @@
 <body>
     <header>
         <h1>daniel jansen harianto </h1>
-        <!-- <nav>
-            <ul>
-                <li><a href="#about">about</a></li>
-                <li><a href="#projects">instagram</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav> -->
 
-         <!-- Clickable text for About -->
-        <p><a href="#" id="aboutText">about</a></p>
+    <!-- Flex container for clickable texts -->
+    <div class="clickable-container">
+        <p><a href="#" id="aboutText">About</a></p>
+        <p><a href="#" id="contactText">Contact</a></p> 
         
-         <!-- Pop-up modal -->
-        <div id="popup" class="popup">
-            <div class="popup-content">
-                <span class="close">&times;</span>
-                <h2>About Me</h2>
-                <p>This is some information about me...</p>
-            </div>
-        </div>
+    </div>
 
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Check this out</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of the project.</p>
+    <!-- Pop-up modal for About -->
+    <div id="aboutPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>about</h2>
+            <p> hello i'm daniel </p>
+            <p> i live in jakarta and direct / animate / design things</p>
+
+            <p>working across video and games projects</p>
+            <p>previously animator + artist at Die Gute Fabrik and Dreamfeel</p>
+            <p>get in touch if you'd like to collaborate/commission me</p>
+            <p>            
+                
+            </p>
+            <p>danieljansenh@gmail.com</p>
+            <p>@danieljansenh</p>
+                
         </div>
-        <!-- Repeat for more projects -->
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-    </section>
+    </div>
+
+    <!-- Pop-up modal for Contact -->
+    <div id="contactPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>contact</h2>
+            <p>Here are my contact details...</p>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+
     <footer>
-        <p>&copy; 2024 daniel j harianto</p>
+        <p1>&copy; 2024 daniel j harianto</p1>
     </footer>
+
+
 </body>
 </html>
