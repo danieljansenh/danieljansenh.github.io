@@ -5,18 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <!-- Import Source Code Pro font from Google Fonts -->
+    <link href="https://fonts.google.com/specimen/Source+Code+Pro" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Daniel Jansen Harianto </h1>
-        <nav>
+        <h1>daniel jansen harianto </h1>
+        <!-- <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#projects">instagram</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
-        </nav>
+        </nav> -->
+
+         <!-- Clickable text for About -->
+        <p><a href="#" id="aboutText">about</a></p>
+        
+         <!-- Pop-up modal -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close">&times;</span>
+                <h2>About Me</h2>
+                <p>This is some information about me...</p>
+            </div>
+        </div>
+
     </header>
     <section id="about">
         <h2>About Me</h2>
@@ -35,7 +51,7 @@
         <p>Email: your.email@example.com</p>
     </section>
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <p>&copy; 2024 daniel j harianto</p>
     </footer>
 </body>
 </html>
