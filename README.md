@@ -1,1 +1,1 @@
-danieljansenh.github.io
+https://danieljansenh.github.io/
