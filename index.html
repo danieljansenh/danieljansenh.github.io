@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>daniel j harianto</title>
+    
     <!-- Import Source Code Pro font from Google Fonts -->
-    <link href="https://fonts.google.com/specimen/Source+Code+Pro" rel="stylesheet">
+    <!-- <link href="https://fonts.google.com/specimen/Source+Code+Pro" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,8 +17,9 @@
 
     <!-- Flex container for clickable texts -->
     <div class="clickable-container">
-        <p><a href="#" id="aboutText">About</a></p>
-        <p><a href="#" id="contactText">Contact</a></p> 
+        <h2><a href="#" id="aboutText">About</a></h2>
+        <h2><a href="#" id="resumeText">Resume</a></h2> 
+        <h2><a href="#" id="instaText">Instagram</a></h2> 
         
     </div>
 
@@ -27,22 +29,21 @@
             <span class="close">&times;</span>
             <h2>about</h2>
             <p> hello i'm daniel </p>
-            <p> i live in jakarta and direct / animate / design things</p>
+            <p1> i live in jakarta and direct / animate / design things</p1>
+            <p1>working across video and games projects</p1>
+            <p1>previously animator + artist at Die Gute Fabrik and Dreamfeel</p1>
+            <p1>get in touch if you'd like to collaborate/commission me</p1>
 
-            <p>working across video and games projects</p>
-            <p>previously animator + artist at Die Gute Fabrik and Dreamfeel</p>
-            <p>get in touch if you'd like to collaborate/commission me</p>
-            <p>            
-                
-            </p>
-            <p>danieljansenh@gmail.com</p>
-            <p>@danieljansenh</p>
+            <!-- <p>_________________________</p> -->
+            <p>danieljansenh@gmail.com
+
+            @danieljansenh</p>
                 
         </div>
     </div>
 
-    <!-- Pop-up modal for Contact -->
-    <div id="contactPopup" class="popup">
+    <!-- Pop-up modal for Resume -->
+    <div id="resumePopup" class="popup">
         <div class="popup-content">
             <span class="close">&times;</span>
             <h2>contact</h2>
@@ -50,8 +51,13 @@
         </div>
     </div>
 
-    
+    <script> // Handle "Instagram" click event
+        document.getElementById('instaText').addEventListener('click', function() {
+            window.open('https://instagram.com/danieljansenh', '_blank'); // Replace with your Instagram URL
+        });
+    </script>
     <script src="script.js"></script>
+
 
     <footer>
         <p1>&copy; 2024 daniel j harianto</p1>

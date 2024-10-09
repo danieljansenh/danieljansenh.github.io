@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'PPMori'; /* Give your font a name to use later */
+    src: url('fonts/PPMori-Medium.otf') format('opentype'); /* Adjust the path to where your font file is located */
+    font-weight: 100; /* Optional: Set the weight, in this case, thin */
+    font-style: normal; /* You can set font style (normal, italic, etc.) */
+}
+
+@font-face {
+    font-family: 'PPMori'; /* Give your font a name to use later */
+    src: url('fonts/PPMori-SemiBold.otf') format('opentype'); /* Adjust the path to where your font file is located */
+    font-weight: 700; /* Optional: Set the weight, in this case, thin */
+    font-style: normal; /* You can set font style (normal, italic, etc.) */
+}
+
 /* Apply a linear gradient background to the whole page */
 html, body {
     height: 100%;
@@ -6,11 +20,11 @@ html, body {
 }
 
 body {
-    background: radial-gradient(circle 1500px at center right, #80c3fb, #ffffff); /* Orange to pink gradient */
+    background: radial-gradient(circle 1500px at center right, #4c7a9f, #ffffff); 
     margin: 100; /* Removes default margin */
     padding: 0; /* Removes default padding */
     font-family: 'Roboto', sans-serif; /* Optional: Ensure your font styles are applied */
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'PPMori', monospace;
     font-weight: 500; /* Thin weight */
     margin: 0;
     padding: 0;
@@ -19,30 +33,36 @@ body {
 
 
 h1 {
+    font-family: 'PPMori', sans-serif;
+    font-weight: 700;
     margin-left: 45px;
-    margin-bottom: 30px;
-    font-size: 40px; 
+    margin-bottom: 30px; 
+    font-size: 35px; 
+    color: rgb(0, 0, 0); 
 }
 
 h2 {
-    #margin-left: 30px;
-    font-size: 30px; 
-    
+    font-family: 'PPMori', sans-serif;
+    font-weight: 100;
+    font-size: 22px; 
+    margin-right:-60px;
 }
 
 h3 {
-    #margin-left: 30px;
-    font-size: 30px; 
-    
+    font-family: 'PPMori', sans-serif;
+    font-weight: 100;
+    font-size: 22px; 
+    margin-left: 5px;
 }
 
 p {
-    font-size: 25px; 
+    font-size: 16px;
+    line-height: 2; 
+    margin-bottom:20px;
 }
 
 p1 {
-    #margin-left: 30px;
-    font-size: 15px; 
+    font-size: 16px; 
 }
 
 header {
@@ -74,7 +94,8 @@ footer {
 }
 
 #aboutText,
-#contactText {
+#resumeText,
+#instaText{
     color: grey; /* Change to your preferred color */
     text-decoration: none; /* Underline for clickable text */
     cursor: pointer; /* Change cursor on hover */

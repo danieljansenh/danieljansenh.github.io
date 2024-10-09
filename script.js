@@ -1,10 +1,10 @@
 // Get the modals
 const aboutPopup = document.getElementById("aboutPopup");
-const contactPopup = document.getElementById("contactPopup");
+const resumePopup = document.getElementById("resumePopup");
 
 // Get the clickable text that opens the modals
 const aboutText = document.getElementById("aboutText");
-const contactText = document.getElementById("contactText");
+const resumeText = document.getElementById("resumeText");
 
 // Get the <span> element that closes the modals
 const closeSpans = document.getElementsByClassName("close");
@@ -16,15 +16,15 @@ aboutText.onclick = function(event) {
 }
 
 // When the user clicks the Contact text, open the Contact modal
-contactText.onclick = function(event) {
+resumeText.onclick = function(event) {
     event.preventDefault(); // Prevent default anchor click behavior
-    contactPopup.style.display = "block"; // Show the Contact pop-up
+    resumePopup.style.display = "block"; // Show the Contact pop-up
 }
 
 // Function to close the modals
 function closeModal() {
     aboutPopup.style.display = "none"; // Hide the About pop-up
-    contactPopup.style.display = "none"; // Hide the Contact pop-up
+    resumePopup.style.display = "none"; // Hide the Contact pop-up
 }
 
 // Close modals when the user clicks on <span> (x)
@@ -37,7 +37,7 @@ window.onclick = function(event) {
     if (event.target === aboutPopup) {
         aboutPopup.style.display = "none";
     }
-    if (event.target === contactPopup) {
-        contactPopup.style.display = "none";
+    if (event.target === resumePopup) {
+        resumePopup.style.display = "none";
     }
 }
