@@ -12,6 +12,12 @@
     font-style: normal; /* You can set font style (normal, italic, etc.) */
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Apply a linear gradient background to the whole page */
 html, body {
     height: 100%;
@@ -68,7 +74,7 @@ p {
 }
 .highlight {
     font-size: 35px;
-    line-height: .2; 
+    line-height: 1; 
 
 }
 .additional {
