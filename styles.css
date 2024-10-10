@@ -46,60 +46,62 @@ body {
 h1 {
     font-family: 'PPMori', sans-serif;
     font-weight: 700;
-    margin-left: 2.5rem;
+    margin-left: 2.8rem;
     margin-bottom: 1.75rem; /*30px*/
-    font-size: 2.5rem; /*45px*/
+    font-size: 1.5rem; /*45px*/
     color: rgb(0, 0, 0); 
 }
 
 h2 {
     font-family: 'PPMori', sans-serif;
     font-weight: 100;
-    font-size: 1.5rem; /*25px*/ 
-    margin-right:-3.75rem; /*60px*/
+    font-size: 1rem; /*25px*/ 
+    margin-right:-2rem; /*60px*/
 }
 
 h3 {
     font-family: 'PPMori', sans-serif;
     font-weight: 700;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 3.75; 
 }
 
 p {
     font-family: 'PPMori', sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.; 
+    font-size: 0.9rem;
+    line-height: 0.75; 
     margin-bottom:1.25rem;
 }
 
 .intro {
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     line-height: .1; 
-    margin-top:5rem;
+    margin-top:4rem;
 }
 .highlight {
-    font-size: 2.1rem;
-    line-height: 1; 
+    font-size: 1.25rem;
+    line-height: 1.25; 
 
 }
 .additional {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     margin-left:85%;
     padding:0px;
-    line-height: .5;
+    line-height: .25;
     color: #9ccb3b;
 }
 
 header {
     font-size: 1.2rem;
     color: #0c1b4062;
-    padding: 3rem 0;
+    padding: 5rem 0;
     text-align: left;
     
 }
 
 footer {
-    margin-left: 2.5rem;
+    margin-left: 2.75rem;
+    font-size: .75rem;
     color: #333;
     text-align: left;
     padding: 1rem 0;
@@ -112,11 +114,11 @@ footer {
 /* Container for the portfolio */
 .portfolio {
     display: grid;
-    grid-template-columns: 37.5rem 31.25rem 1fr; /*600px 500px 1fr*/
-    grid-template-rows: 9.35rem 22rem ; /*150px 350px*/
+    grid-template-columns: 20rem 28rem 1fr; /*600px 500px 1fr*/
+    grid-template-rows: 8rem 9rem ; /*150px 350px*/
     gap: 1.75rem;
     padding:20%;
-    margin-top:-23%;
+    margin-top:-22%;
     margin-left:-18%;
 }
 
@@ -125,7 +127,7 @@ footer {
     border-radius: px;
     overflow: hidden;
     text-align: left;
-    box-shadow: 0 0.25rem 1.25rem rgba(19, 32, 94, 0.194);
+    box-shadow: 0 0.25rem .5rem rgba(19, 32, 94, 0.194);
     transition: transform 0.2s;
     padding: 1.75rem;
 }
@@ -133,14 +135,15 @@ footer {
 .work-item img {
     width: 100%;
     height: auto;
-    margin-top: 4.375rem;
+    margin-top: 2rem;
     display: block;
+    font-size: 1rem;
 }
 
 /* Title of each work item */
 .work-item p {
     margin: 0.625rem 0;
-    font-size: 1.1em;
+    font-size: .5rem;
     color: #333;
 }
 
@@ -204,7 +207,7 @@ footer {
     padding: 3.125rem;
     border: 0px solid #888;
     width: 35%; /* Could be more or less, depending on screen size */
-    height: 40%;
+    height: 50%;
 }
 
 
