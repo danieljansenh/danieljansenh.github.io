@@ -128,8 +128,8 @@ footer {
 /* Container for the portfolio */
 .portfolio {
     display: grid;
-    grid-template-columns: 20rem 28rem 1fr; /*600px 500px 1fr*/
-    grid-template-rows: 8rem 9rem ; /*150px 350px*/
+    grid-template-columns: 20rem 25rem 1fr; /*600px 500px 1fr*/
+    grid-template-rows: 5rem 12rem ; /*150px 350px*/
     gap: 1.75rem;
     padding:20%;
     margin-top:-22%;
@@ -149,7 +149,9 @@ footer {
 .work-item img {
     width: 100%;
     height: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-left: -0rem;
+    margin-bottom: 0.25rem;
     display: block;
     font-size: 1rem;
 }
@@ -232,3 +234,5 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
+
