@@ -226,6 +226,10 @@ footer {
     height: 50%;
 }
 
+.popup-content img {
+    width: 100%;
+    height: auto;
+}
 
 
 .close:hover,
